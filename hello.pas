@@ -2,6 +2,7 @@
 
 begin
   var hour := ReadInteger('Введите время в часах,сударь');
+  assert((hour > -1) and (hour < 25));
   case hour of
     4..10: writeln('Доброе утро, Мир');
     11..16: writeln('Добрый день, Мир');
