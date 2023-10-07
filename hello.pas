@@ -9,7 +9,13 @@ begin
     17..22: writeln('Доброе вечер, Мир');
     else  writeln('Доброй ночи, Мир');
   end;
-  
+
+  var num := ReadInteger('Choose your language: 1 - ru, 2 - eng, 3 - deutsh);
+  case num of
+  1 : println('Привет мир!');
+  2 : println('Hello World');
+  3 ; println('Hallo Welt');
+  end;
 end.
 
 {Введите время в часах,сударь 17
